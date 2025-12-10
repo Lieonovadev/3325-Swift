@@ -4,16 +4,16 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
-      app_store_connect: lipyaninaproj #назва ключа з код меджека, щось схоже на нейм апки
+      app_store_connect: lieonovaproj #назва ключа з код меджека, щось схоже на нейм апки
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.lipyaninaproj.app #тут бандл
+        bundle_identifier: com.lieonovaproj.app #тут бандл
       vars:
-        BUNDLE_ID: "com.lipyaninaproj.app" #тут бандл
-        XCODE_WORKSPACE: "KeepersLegacy.xcworkspace" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "KeepersLegacy" # <-- Put the name of your Xcode scheme here
-        APP_STORE_APPLE_ID: 6756271660 #тут ід додатка в стор
+        BUNDLE_ID: "com.lieonovaproj.app" #тут бандл
+        XCODE_WORKSPACE: "MysticZen.xcworkspace" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "MysticZen" # <-- Put the name of your Xcode scheme here
+        APP_STORE_APPLE_ID: 6755882627 #тут ід додатка в стор
       xcode: latest
       cocoapods: default
     scripts:
