@@ -1,0 +1,6 @@
+module Pods_MysticZen {
+  umbrella header "Pods-MysticZen-umbrella.h"
+
+  export *
+  module * { export * }
+}

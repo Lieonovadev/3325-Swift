@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ACF4C192F6EECC98D9F373D /* libPods-MysticZen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9707E965C49BBE39FB3E2BB8 /* libPods-MysticZen.a */; };
+		725FAF472EE96FF500A36E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725FAF442EE96FF500A36E06 /* Assets.xcassets */; };
+		725FAF482EE96FF500A36E06 /* MysticZenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF452EE96FF500A36E06 /* MysticZenApp.swift */; };
+		725FAF4C2EE9706D00A36E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF4A2EE9706D00A36E06 /* AppDelegate.swift */; };
+		725FAF4D2EE9706D00A36E06 /* AppEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF4B2EE9706D00A36E06 /* AppEntryPoint.swift */; };
+		725FAF602EE9707800A36E06 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 725FAF4E2EE9707800A36E06 /* index.html */; };
+		725FAF612EE9707800A36E06 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF5D2EE9707800A36E06 /* Color+Extensions.swift */; };
+		725FAF622EE9707800A36E06 /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF4F2EE9707800A36E06 /* UserAgentBuilder.swift */; };
+		725FAF632EE9707800A36E06 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF5C2EE9707800A36E06 /* View+Extensions.swift */; };
+		725FAF642EE9707800A36E06 /* MZHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF562EE9707800A36E06 /* MZHomeWebView.swift */; };
+		725FAF652EE9707800A36E06 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF502EE9707800A36E06 /* WebViewContainer.swift */; };
+		725FAF662EE9707800A36E06 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF5B2EE9707800A36E06 /* TextScreen.swift */; };
+		725FAF672EE9707800A36E06 /* MZLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF582EE9707800A36E06 /* MZLaunchView.swift */; };
+		725FAF682EE9707800A36E06 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF5E2EE9707800A36E06 /* ShapeStyle+Extensions.swift */; };
+		725FAF692EE9707800A36E06 /* WebSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF522EE9707800A36E06 /* WebSheetViewController.swift */; };
+		725FAF6A2EE9707800A36E06 /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF512EE9707800A36E06 /* WebViewCoordinator.swift */; };
+		725FAF6B2EE9707800A36E06 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF542EE9707800A36E06 /* PrivacyView.swift */; };
+		725FAF6E2EE970D100A36E06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 725FAF6D2EE970D100A36E06 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		725FAF352EE96FD800A36E06 /* MysticZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MysticZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		725FAF442EE96FF500A36E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		725FAF452EE96FF500A36E06 /* MysticZenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticZenApp.swift; sourceTree = "<group>"; };
+		725FAF4A2EE9706D00A36E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		725FAF4B2EE9706D00A36E06 /* AppEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryPoint.swift; sourceTree = "<group>"; };
+		725FAF4E2EE9707800A36E06 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		725FAF4F2EE9707800A36E06 /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		725FAF502EE9707800A36E06 /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		725FAF512EE9707800A36E06 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		725FAF522EE9707800A36E06 /* WebSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSheetViewController.swift; sourceTree = "<group>"; };
+		725FAF542EE9707800A36E06 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		725FAF562EE9707800A36E06 /* MZHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZHomeWebView.swift; sourceTree = "<group>"; };
+		725FAF582EE9707800A36E06 /* MZLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZLaunchView.swift; sourceTree = "<group>"; };
+		725FAF5B2EE9707800A36E06 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
+		725FAF5C2EE9707800A36E06 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		725FAF5D2EE9707800A36E06 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		725FAF5E2EE9707800A36E06 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		725FAF6C2EE970A500A36E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		725FAF6D2EE970D100A36E06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9707E965C49BBE39FB3E2BB8 /* libPods-MysticZen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MysticZen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD438326EF86F72935CC73F6 /* Pods-MysticZen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MysticZen.debug.xcconfig"; path = "Target Support Files/Pods-MysticZen/Pods-MysticZen.debug.xcconfig"; sourceTree = "<group>"; };
+		E2359E891A2B89AC0E0AA708 /* Pods-MysticZen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MysticZen.release.xcconfig"; path = "Target Support Files/Pods-MysticZen/Pods-MysticZen.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		725FAF322EE96FD800A36E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ACF4C192F6EECC98D9F373D /* libPods-MysticZen.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058E967AB92709BAC2E93B2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD438326EF86F72935CC73F6 /* Pods-MysticZen.debug.xcconfig */,
+				E2359E891A2B89AC0E0AA708 /* Pods-MysticZen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		725FAF2C2EE96FD800A36E06 = {
+			isa = PBXGroup;
+			children = (
+				725FAF462EE96FF500A36E06 /* MysticZen */,
+				725FAF362EE96FD800A36E06 /* Products */,
+				058E967AB92709BAC2E93B2F /* Pods */,
+				C28CD501EE38E923FD80B8BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		725FAF362EE96FD800A36E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF352EE96FD800A36E06 /* MysticZen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		725FAF462EE96FF500A36E06 /* MysticZen */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF6D2EE970D100A36E06 /* GoogleService-Info.plist */,
+				725FAF6C2EE970A500A36E06 /* Info.plist */,
+				725FAF5A2EE9707800A36E06 /* Screens */,
+				725FAF5F2EE9707800A36E06 /* Extensions */,
+				725FAF492EE96FF800A36E06 /* App */,
+				725FAF442EE96FF500A36E06 /* Assets.xcassets */,
+			);
+			path = MysticZen;
+			sourceTree = "<group>";
+		};
+		725FAF492EE96FF800A36E06 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF4A2EE9706D00A36E06 /* AppDelegate.swift */,
+				725FAF4B2EE9706D00A36E06 /* AppEntryPoint.swift */,
+				725FAF452EE96FF500A36E06 /* MysticZenApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		725FAF532EE9707800A36E06 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF4E2EE9707800A36E06 /* index.html */,
+				725FAF4F2EE9707800A36E06 /* UserAgentBuilder.swift */,
+				725FAF502EE9707800A36E06 /* WebViewContainer.swift */,
+				725FAF512EE9707800A36E06 /* WebViewCoordinator.swift */,
+				725FAF522EE9707800A36E06 /* WebSheetViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		725FAF552EE9707800A36E06 /* PrivacyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF542EE9707800A36E06 /* PrivacyView.swift */,
+			);
+			path = PrivacyScreen;
+			sourceTree = "<group>";
+		};
+		725FAF572EE9707800A36E06 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF562EE9707800A36E06 /* MZHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		725FAF592EE9707800A36E06 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF582EE9707800A36E06 /* MZLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		725FAF5A2EE9707800A36E06 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF532EE9707800A36E06 /* Web */,
+				725FAF552EE9707800A36E06 /* PrivacyScreen */,
+				725FAF572EE9707800A36E06 /* HomeWebScreen */,
+				725FAF592EE9707800A36E06 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		725FAF5F2EE9707800A36E06 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF5B2EE9707800A36E06 /* TextScreen.swift */,
+				725FAF5C2EE9707800A36E06 /* View+Extensions.swift */,
+				725FAF5D2EE9707800A36E06 /* Color+Extensions.swift */,
+				725FAF5E2EE9707800A36E06 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C28CD501EE38E923FD80B8BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9707E965C49BBE39FB3E2BB8 /* libPods-MysticZen.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		725FAF342EE96FD800A36E06 /* MysticZen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725FAF412EE96FDA00A36E06 /* Build configuration list for PBXNativeTarget "MysticZen" */;
+			buildPhases = (
+				E06AE8E1190599791B9048F6 /* [CP] Check Pods Manifest.lock */,
+				725FAF312EE96FD800A36E06 /* Sources */,
+				725FAF322EE96FD800A36E06 /* Frameworks */,
+				725FAF332EE96FD800A36E06 /* Resources */,
+				DBD611A9D4C83FB6AB4024FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MysticZen;
+			productName = MysticZen;
+			productReference = 725FAF352EE96FD800A36E06 /* MysticZen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		725FAF2D2EE96FD800A36E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					725FAF342EE96FD800A36E06 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 725FAF302EE96FD800A36E06 /* Build configuration list for PBXProject "MysticZen" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 725FAF2C2EE96FD800A36E06;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 725FAF362EE96FD800A36E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				725FAF342EE96FD800A36E06 /* MysticZen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		725FAF332EE96FD800A36E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725FAF472EE96FF500A36E06 /* Assets.xcassets in Resources */,
+				725FAF602EE9707800A36E06 /* index.html in Resources */,
+				725FAF6E2EE970D100A36E06 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBD611A9D4C83FB6AB4024FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MysticZen/Pods-MysticZen-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MysticZen/Pods-MysticZen-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MysticZen/Pods-MysticZen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E06AE8E1190599791B9048F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MysticZen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		725FAF312EE96FD800A36E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725FAF482EE96FF500A36E06 /* MysticZenApp.swift in Sources */,
+				725FAF4C2EE9706D00A36E06 /* AppDelegate.swift in Sources */,
+				725FAF612EE9707800A36E06 /* Color+Extensions.swift in Sources */,
+				725FAF622EE9707800A36E06 /* UserAgentBuilder.swift in Sources */,
+				725FAF632EE9707800A36E06 /* View+Extensions.swift in Sources */,
+				725FAF642EE9707800A36E06 /* MZHomeWebView.swift in Sources */,
+				725FAF652EE9707800A36E06 /* WebViewContainer.swift in Sources */,
+				725FAF662EE9707800A36E06 /* TextScreen.swift in Sources */,
+				725FAF672EE9707800A36E06 /* MZLaunchView.swift in Sources */,
+				725FAF682EE9707800A36E06 /* ShapeStyle+Extensions.swift in Sources */,
+				725FAF692EE9707800A36E06 /* WebSheetViewController.swift in Sources */,
+				725FAF6A2EE9707800A36E06 /* WebViewCoordinator.swift in Sources */,
+				725FAF6B2EE9707800A36E06 /* PrivacyView.swift in Sources */,
+				725FAF4D2EE9706D00A36E06 /* AppEntryPoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		725FAF3F2EE96FDA00A36E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		725FAF402EE96FDA00A36E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		725FAF422EE96FDA00A36E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD438326EF86F72935CC73F6 /* Pods-MysticZen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MysticZen/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MysticZen;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lieonovaproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		725FAF432EE96FDA00A36E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2359E891A2B89AC0E0AA708 /* Pods-MysticZen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MysticZen/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MysticZen;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lieonovaproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		725FAF302EE96FD800A36E06 /* Build configuration list for PBXProject "MysticZen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725FAF3F2EE96FDA00A36E06 /* Debug */,
+				725FAF402EE96FDA00A36E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725FAF412EE96FDA00A36E06 /* Build configuration list for PBXNativeTarget "MysticZen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725FAF422EE96FDA00A36E06 /* Debug */,
+				725FAF432EE96FDA00A36E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 725FAF2D2EE96FD800A36E06 /* Project object */;
+}
