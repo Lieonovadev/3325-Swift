@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1ACF4C192F6EECC98D9F373D /* libPods-MysticZen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9707E965C49BBE39FB3E2BB8 /* libPods-MysticZen.a */; };
+		0A8E33EF422DDC42E383346E /* libPods-MysticZen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A95DE2F874CABB579803AB /* libPods-MysticZen.a */; };
 		725FAF472EE96FF500A36E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725FAF442EE96FF500A36E06 /* Assets.xcassets */; };
 		725FAF482EE96FF500A36E06 /* MysticZenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF452EE96FF500A36E06 /* MysticZenApp.swift */; };
 		725FAF4C2EE9706D00A36E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF4A2EE9706D00A36E06 /* AppDelegate.swift */; };
@@ -28,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4579D6107057EAF26E0B86AD /* Pods-MysticZen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MysticZen.release.xcconfig"; path = "Target Support Files/Pods-MysticZen/Pods-MysticZen.release.xcconfig"; sourceTree = "<group>"; };
+		7232640F2EE9E0C300809AB2 /* MysticZen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MysticZen.entitlements; sourceTree = "<group>"; };
 		725FAF352EE96FD800A36E06 /* MysticZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MysticZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		725FAF442EE96FF500A36E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		725FAF452EE96FF500A36E06 /* MysticZenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticZenApp.swift; sourceTree = "<group>"; };
@@ -47,9 +49,8 @@
 		725FAF5E2EE9707800A36E06 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
 		725FAF6C2EE970A500A36E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		725FAF6D2EE970D100A36E06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9707E965C49BBE39FB3E2BB8 /* libPods-MysticZen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MysticZen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD438326EF86F72935CC73F6 /* Pods-MysticZen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MysticZen.debug.xcconfig"; path = "Target Support Files/Pods-MysticZen/Pods-MysticZen.debug.xcconfig"; sourceTree = "<group>"; };
-		E2359E891A2B89AC0E0AA708 /* Pods-MysticZen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MysticZen.release.xcconfig"; path = "Target Support Files/Pods-MysticZen/Pods-MysticZen.release.xcconfig"; sourceTree = "<group>"; };
+		77A95DE2F874CABB579803AB /* libPods-MysticZen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MysticZen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3768BEA6F73BBF71E029B97 /* Pods-MysticZen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MysticZen.debug.xcconfig"; path = "Target Support Files/Pods-MysticZen/Pods-MysticZen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ACF4C192F6EECC98D9F373D /* libPods-MysticZen.a in Frameworks */,
+				0A8E33EF422DDC42E383346E /* libPods-MysticZen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,8 +68,8 @@
 		058E967AB92709BAC2E93B2F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CD438326EF86F72935CC73F6 /* Pods-MysticZen.debug.xcconfig */,
-				E2359E891A2B89AC0E0AA708 /* Pods-MysticZen.release.xcconfig */,
+				F3768BEA6F73BBF71E029B97 /* Pods-MysticZen.debug.xcconfig */,
+				4579D6107057EAF26E0B86AD /* Pods-MysticZen.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -79,7 +80,7 @@
 				725FAF462EE96FF500A36E06 /* MysticZen */,
 				725FAF362EE96FD800A36E06 /* Products */,
 				058E967AB92709BAC2E93B2F /* Pods */,
-				C28CD501EE38E923FD80B8BF /* Frameworks */,
+				987ABBC85B248C4BC9E09B47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +95,7 @@
 		725FAF462EE96FF500A36E06 /* MysticZen */ = {
 			isa = PBXGroup;
 			children = (
+				7232640F2EE9E0C300809AB2 /* MysticZen.entitlements */,
 				725FAF6D2EE970D100A36E06 /* GoogleService-Info.plist */,
 				725FAF6C2EE970A500A36E06 /* Info.plist */,
 				725FAF5A2EE9707800A36E06 /* Screens */,
@@ -172,10 +174,10 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		C28CD501EE38E923FD80B8BF /* Frameworks */ = {
+		987ABBC85B248C4BC9E09B47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9707E965C49BBE39FB3E2BB8 /* libPods-MysticZen.a */,
+				77A95DE2F874CABB579803AB /* libPods-MysticZen.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,11 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 725FAF412EE96FDA00A36E06 /* Build configuration list for PBXNativeTarget "MysticZen" */;
 			buildPhases = (
-				E06AE8E1190599791B9048F6 /* [CP] Check Pods Manifest.lock */,
+				2F98EE70D43A3D1B5F5A70B8 /* [CP] Check Pods Manifest.lock */,
 				725FAF312EE96FD800A36E06 /* Sources */,
 				725FAF322EE96FD800A36E06 /* Frameworks */,
 				725FAF332EE96FD800A36E06 /* Resources */,
-				DBD611A9D4C83FB6AB4024FA /* [CP] Copy Pods Resources */,
+				21ED5044CD66C68E7AD81BC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,7 +252,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DBD611A9D4C83FB6AB4024FA /* [CP] Copy Pods Resources */ = {
+		21ED5044CD66C68E7AD81BC4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,20 +260,16 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MysticZen/Pods-MysticZen-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MysticZen/Pods-MysticZen-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MysticZen/Pods-MysticZen-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E06AE8E1190599791B9048F6 /* [CP] Check Pods Manifest.lock */ = {
+		2F98EE70D43A3D1B5F5A70B8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,10 +436,11 @@
 		};
 		725FAF422EE96FDA00A36E06 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD438326EF86F72935CC73F6 /* Pods-MysticZen.debug.xcconfig */;
+			baseConfigurationReference = F3768BEA6F73BBF71E029B97 /* Pods-MysticZen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MysticZen/MysticZen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
@@ -451,6 +450,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MysticZen/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MysticZen;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a profile photo for your account.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to allow voice input";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to take a profile photo for your account.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -466,7 +468,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lieonovaproj.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lieonovaproj.app2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -481,10 +483,11 @@
 		};
 		725FAF432EE96FDA00A36E06 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2359E891A2B89AC0E0AA708 /* Pods-MysticZen.release.xcconfig */;
+			baseConfigurationReference = 4579D6107057EAF26E0B86AD /* Pods-MysticZen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MysticZen/MysticZen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
@@ -494,6 +497,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MysticZen/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MysticZen;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a profile photo for your account.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to allow voice input";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to your photo library to take a profile photo for your account.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -509,7 +515,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lieonovaproj.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lieonovaproj.app2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
